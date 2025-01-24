@@ -56,3 +56,5 @@ For your group project you will be reading movies from the Kafka stream. Try fin
 - [frequent bug list and solutions](./bug_list.md)
 
 
+ssh -L 9092:localhost:9092 kafkastudent@48.217.83.110 -NTf
+kcat -b localhost:9092 -t zhentong-test -o beginning -q
